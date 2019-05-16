@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    font-size: 13px;
+}
+
+.section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    /* Center and scale the images nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* Set style for each mood */
+#autumn {
+    background-image: url("autumn.jpg");
+}
+
+#camping {
+    background-image: url("tent.jpg");
+}
+
+#city {
+    background-image: url("city.jpg");
+}
+
+/* Caption styling */
+.caption {
+    position: absolute;
+    left: 0;
+    top: 30vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.caption span {
+    padding: 1rem;
+    letter-spacing: 10px;
+    background-color: #111;
+    color: #fff;
+    font-size: 2rem;
+}
+
+iframe {
+    max-width: 560px;
+    max-height: 315px;
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    top: 40vh;
+    left: calc(50vw - 280px);
+}
