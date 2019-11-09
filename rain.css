@@ -20,6 +20,10 @@ body, html {
     background-image: url("city.jpg");
 }
 
+#beach {
+    background-image: url("beach.jpg");
+}
+
 /* Main section styling */
 .section {
     position: relative;
